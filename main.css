@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 
+   Reset (http://meyerweb.com/eric/tools/css/reset/)
+------------------------------------------------------------------- */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, 
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0;
+border: 0; outline: 0;  vertical-align: baseline; background: transparent;}
+ol, ul { list-style: none;} blockquote, q { quotes: none;} blockquote:before, 
+blockquote:after, q:before, q:after {content: ''; content: none;} :focus {
+outline: 0;} ins { text-decoration: none;} del {text-decoration: line-through;}
+table { border-collapse: collapse; border-spacing: 0;}
+
+#nav ul li{display: inline; text-indent:-9999px;}
+
+/* Nav bar */
+#nav ul li a{text-decoration:none;display:inline-block;}
+
+#nav ul li.story a{width:106px; height:57px;}
+#nav ul li.story a{background-image:url(nav/ourstory.png);}
+#nav ul li.story a:hover{background-image:url(nav/ourstory_over.png);}
+#nav ul li.story a.down{background-image:url(nav/ourstory_over.png);}
+
+#nav ul li.party a{width:140px; height:57px;}
+#nav ul li.party a{background-image:url(nav/party.png);}
+#nav ul li.party a:hover{background-image:url(nav/party_over.png);}
+#nav ul li.party a.down{background-image:url(nav/party_over.png);}
+
+#nav ul li.gift a{width:131px; height:57px;}
+#nav ul li.gift a{background-image:url(nav/gift.png);}
+#nav ul li.gift a:hover{background-image:url(nav/gift_over.png);}
+#nav ul li.gift a.down{background-image:url(nav/gift_over.png);}
+
+#nav ul li.guestbook a{width:108px; height:57px;}
+#nav ul li.guestbook a{background-image:url(nav/guest.png);}
+#nav ul li.guestbook a:hover{background-image:url(nav/guest_over.png);}
+#nav ul li.guestbook a.down{background-image:url(nav/guest_over.png);}
+
+#nav ul li.contact a{width:100px; height:57px;}
+#nav ul li.contact a{background-image:url(nav/contact.png);}
+#nav ul li.contact a:hover{background-image:url(nav/contact_over.png);}
+#nav ul li.contact a.down{background-image:url(nav/contact_over.png);}
+
+#nav ul li.travel a{width:143px; height:57px;}
+#nav ul li.travel a{background-image:url(nav/travel.png);}
+#nav ul li.travel a:hover{background-image:url(nav/travel_over.png);}
+#nav ul li.travel a.down{background-image:url(nav/travel_over.png);}
+
+
+
+body {
+	background-color:#fff;
+	background-image:url(flourishbg.png);
+	background-repeat:repeat-x;
+	margin-top: 30px;
+	text-align: justify; 
+	font:Georgia, "Times New Roman", Times, serif;
+}
+p{text-align: justify;}
+
+hr {
+	border: 0; 
+	border-top: 4px double #fff;
+	margin: 10px auto 0 0;
+	}
+
+a:link, a:visited{
+	color: #ED1556;
+}
+a:hover {
+	color: #fff;
+}
+
+#header {
+	background-image:url(bg/header.png);
+	background-repeat:no-repeat;
+	clear:left;
+	height:290px;
+}
+
+#content{
+	clear:left;
+	width:702px;
+	float: left;
+	padding: 0 89px;
+	background-image:url(bg/content.png);
+	background-repeat:repeat-y;
+}
+#master_content{
+	height: 600px;	
+	background-image:url(bg/content.png);
+	background-repeat:repeat-y;
+}
+	
+#footer{
+	clear:left;
+}
+
+
+#container {
+	width: 880px; 
+	text-align: left;
+	margin: 0 auto;	
+} 
+
+#logo {
+	width: 880px;
+	float: left;
+	padding-top:50px;
+}
+
+#nav {
+	width:800px;
+	height:25px;
+	float: left;
+	padding-left:70px;
+	padding-right:10px;
+}

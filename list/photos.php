@@ -1,0 +1,2 @@
+<p>We've included some pictures that we thought you might like to see.   Check back often as we plan to keep adding to the collection.</p>
+<embed type="application/x-shockwave-flash" src="http://picasaweb.google.com/s/c/bin/slideshow.swf" width="400" height="267" flashvars="host=picasaweb.google.com&captions=1&RGB=0x000000&feed=http%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2Fmcnally.kyle%2Falbumid%2F5254214018410938945%3Fkind%3Dphoto%26alt%3Drss" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
